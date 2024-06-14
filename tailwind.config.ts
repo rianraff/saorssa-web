@@ -9,9 +9,19 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'home-bg': "url('/home-bg.png')",
+        'headline-bg': "url('/headline-bg.png')",
+        'thumbnail-bg': "url('/thumbnail-bg.png')",
+        'user-pp': "url('/user-pp.png')",
+      },
+      fontFamily: {
+        gotham: ['Gotham', 'sans-serif'],
+      },
+      colors: {
+        white: '#fafafa',
+        stone: '#dfdfdf',
+        black: '#1d1d1d',
+        gray: '#3d3d3d',
       },
     },
   },
